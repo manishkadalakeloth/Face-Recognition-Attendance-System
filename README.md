@@ -7,17 +7,6 @@ The Face Recognition Attendance System is an automated solution designed to stre
 3. Automated Attendance Logging: Automatically logs recognized names, along with the date and time, into an Excel file (attendance.xlsx).
 4. CSV Mapping: Easy updating of recognized individuals by modifying the face_names.csv file.
 
-# Directory Structure
-FaceRecognitionAttendanceSystem/
-│
-├── haarcascade_frontalface_default.xml  # Pre-trained XML classifier for face detection.
-├── face_names.csv  # CSV file mapping image filenames to names.
-├── main.py  # The main script for running the attendance system.
-│
-├── attendance/
-│   └── attendance.xlsx  # Excel file where attendance is recorded.
-│
-└── images/  # Directory where captured face images are temporarily stored.
 
 # Getting Started
 Prerequisites
